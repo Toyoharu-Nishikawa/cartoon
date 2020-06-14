@@ -4,10 +4,12 @@
   <title>CATOON</title>
   <meta charset="UTF-8"> 
   <link rel="stylesheet" type="text/css" href="./styles/index.css">
-  <!--<link href="./liquidfun.js" rel="preload" as="script"> -->
 
+  <script defer src="./scripts/minijscad/svg.js/svg.js"></script>
+  <script defer src="./scripts/minijscad/svg.js/svg.panzoom.js"></script>
 
-  <script src="./liquidfun.js"></script>
+  <script defer src="./scripts/pixi/pixi.min.js"></script>
+  <script defer src="./scripts/liquidfun/liquidfun.js"></script>
   <script defer type="module" src="./scripts/index.js"></script>
   <script>
       console.log("ddd")
@@ -22,8 +24,8 @@
   <article class="userArea">
   </article>
   <article class="drawArea">
-    <canvas class="draw" id="draw">
-    </canvas>
+    <canvas class="draw" id="draw"></canvas>
+    <div class="cad" id="cad"></div>
   </article>
 </body>
 </html>

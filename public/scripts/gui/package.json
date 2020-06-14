@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^5.2.4"
+    "minijscad": "^1.4.0"
   }
 }
